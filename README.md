@@ -5,7 +5,7 @@ heterozygous variant counts from single-sample gVCF files and merge results
 with cohort metadata.
 
 # Written explanation
-The file `Technical_test_explanation.pdf` contains the written answer to the open question regarding optimization, benchmarking, and scaling of the pipeline to thousands of samples.
+The file `pipeline_scaling_optimization_explanation.pdf` contains the written answer to the open question regarding optimization, benchmarking, and scaling of the pipeline to thousands of samples.
 
 ## Features
 - gVCF parsing with DP/GQ filtering
