@@ -33,4 +33,8 @@ docker run --rm \
   -v "$PWD:/work" \
   -w /work \
   hetcount:1.0 \
-  --root /work --out /work/docker_outputs --jobs 4 --report
+  --root /work --out /work/docker_outputs --jobs 4 --report```
+
+## Technical Test – Written Explanation
+
+The file `Technical_Test_Explanation.pdf` contains the written answer to the open question regarding optimization, benchmarking, and scaling of the pipeline to thousands of samples.
