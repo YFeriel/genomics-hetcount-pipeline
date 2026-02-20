@@ -19,5 +19,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy code
 COPY . .
 
-# Default command (can be overridden)
+# Default command
 ENTRYPOINT ["python3", "main.py"]
