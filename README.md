@@ -4,6 +4,9 @@ This repository contains a modular Python pipeline to compute per-sample
 heterozygous variant counts from single-sample gVCF files and merge results
 with cohort metadata.
 
+# Technical Test – Written Explanation
+The file `Technical_Test_Explanation.pdf` contains the written answer to the open question regarding optimization, benchmarking, and scaling of the pipeline to thousands of samples.
+
 ## Features
 - gVCF parsing with DP/GQ filtering
 - Parallel processing per sample
@@ -34,7 +37,3 @@ docker run --rm \
   -w /work \
   hetcount:1.0 \
   --root /work --out /work/docker_outputs --jobs 4 --report
-
-# Technical Test – Written Explanation
-
-The file `Technical_Test_Explanation.pdf` contains the written answer to the open question regarding optimization, benchmarking, and scaling of the pipeline to thousands of samples.
