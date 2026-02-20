@@ -13,7 +13,7 @@ with cohort metadata.
 - Docker and Apptainer compatible
 
 ## Requirements
-- Python ≥ 3.9
+- Python ≥ 3.8
 - cyvcf2
 - pandas
 - pyarrow
